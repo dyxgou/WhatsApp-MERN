@@ -1,0 +1,43 @@
+.chat
+{
+  display: flex;
+  flex-direction: column;
+  flex: .70;
+}
+
+.chat__header
+{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.chat__headerInfo
+{
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chat__headerInfo > p
+{
+  color: gray;
+}
+
+.chat__body
+{
+  flex: 1;
+  background-image: url("https://personalmarketingdigital.com.br/wp-content/uploads/2018/05/background-whatsapp-7.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar
+{
+  display: none;
+}
+

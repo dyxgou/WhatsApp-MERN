@@ -1,0 +1,38 @@
+.chatInput
+{
+  display: flex;
+  margin: 10px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatInput__form
+{
+  display: flex;
+  flex: 1;
+}
+
+.chatInput__form > button
+{
+  display: none;
+}
+
+.chatInput__form > input
+{
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 16px;
+  color: black;
+  font-size: 16px;
+  font-family: 'JetBrains Mono';
+
+}
+
+.chatInput__icon
+{
+  color: rgb(31, 31, 31);
+}
