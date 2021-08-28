@@ -65,7 +65,7 @@ app.use((req, res, next) =>
 // BD Config
 
 const uri =
-  "mongodb+srv://admin:OBjlVpchnwynaMIy@cluster0.pqcgm.mongodb.net/whatsappdb?retryWrites=true&w=majority";
+  "This is an url";
 
 mongoose.connect(uri, 
   {
